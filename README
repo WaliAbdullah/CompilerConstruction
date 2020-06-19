@@ -1,0 +1,35 @@
+** Group Members **
+1. Wali Mohammad Abdullah  : Partially wrote source files for Phase-4
+2. Mohammad Sakib Mahmud   : Partially wrote source files for Phase-4
+3. Chowdhury Nawrin Ferdous: Partially wrote source files for Phase-4
+
+** Group Contribution ** 
+Together we contributed for planning and designing the project and to write the report on Latex.
+
+** Note **
+Our parse tree is presented in ParserOutFile file. Here Root is at the top-left position. 
+A child is represented by placing it (1 TAB) distance from its parent. 
+Each block is labeled with a number. Also each block has two children-Definitionpart and StatementPart. They are labeled with corresponding block's number.
+
+** Name of the files included**
+1. Makefile
+2. README
+3. Technical_Report_of_Compiler_Construction.pdf
+4. Source code (phase-1): administration.cc, administration.h, plc.cc, parser.cc, parser.h, firstfollow.cc, firstfollow.h, scanner.cc, scanner.h, symbol.h, symboltable.cc, symboltable.h, token.cc, token.h 
+5. Source code (phase-2): parser.cc, parser.h, firstfollow.cc, firstfollow.h 
+6. Source code (phase-3): blocktable.h, blocktable.cc,type.h
+7. Source code (phase-4): Assembler.h Assembler.cc interp.h interp.cc [Provided by Dr. Shahadat Hossain sir]
+8. Input files: factorial, input1 (taken from lecture), input2 (having some errors intensionally to test error reporting).
+9. Output file: ParserOutFile, PL_interFile_<filename>.asm and MachineCode (intermediate code and abstract machine code) 
+10. Additional Graduate Project (Printing the structure of the program in parse tree ):ParserOutFile
+
+** Instruction: How to compile and run our code **
+$ make clean 			
+$ make 	
+$ ./compiler <inputFileName> 	
+Note: If a non-existing file name is given then compiler takes it as an empty file.
+** The  code is free from compile-time and runtime-errors **
+
+** Approximate time (in hours) we spent on this assignment ** 
+20-25 hours
+

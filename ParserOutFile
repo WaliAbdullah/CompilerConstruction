@@ -1,0 +1,52 @@
+program()
+  |
+  |
+  |
+   Block 0 Begins
+       |
+       |
+       |
+
+       definitionPart() 0
+          |
+          |
+          |
+
+          Definition()
+              |
+              |
+               variableDefinition()
+                   varList()->310 256 
+                   varList()->310 256               constant()->4
+          Definition()
+              |
+              |
+               variableDefinition()
+                   varList()->310 256 
+                   varList()->310 256 
+                   varList()->310 256 
+         |
+         |
+
+       stmtPart()  0
+
+             |
+             |
+             stmt()
+               |
+               |
+               readStatement()->varAccessList()->varAccess() 256->varAccessList()->varAccess() 256
+             |
+             |
+             stmt()
+               |
+               |
+                assignStmt() := ->varAccessList()->varAccess() 256 ->expList()->E()->primaryE()->simpleE()->T()->F()->varAccess() 256->addOp()->T()->F()->varAccess() 256->mulOp()->T()->F()              constant()->5
+             |
+             |
+             stmt()
+               |
+               |
+               writeStatement() ->expList()->E()->primaryE()->simpleE()->T()->F()->varAccess() 256
+   --   --   --   --   --   --
+    Block  0  ends
